@@ -1,0 +1,117 @@
+.outer-page{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.outer-page .navbar{
+    height: 50px;
+    background-color: #fff;
+    width: 100%;
+}
+.navbar .pri-nav{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 4.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    left: 140px;
+}
+.navbar .sec-nav{
+    position: absolute;
+    height: 4.5em;
+    font-size: small;
+    padding-right: 50px;
+    right: 150px;
+}
+.sec-nav .nav-items{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;  
+}
+.nav-items a{
+    text-decoration: none;
+    color: black;
+}
+.pri-nav a{
+    text-decoration: none;
+    color: black;  
+}
+.outer-page .image-page{
+    position: relative;
+}
+.image-page .image{
+    position: absolute;
+    left: 150px;
+}
+.inner-page{
+    position: relative;   
+    top: 270px;
+    left: 150px;
+}
+p{
+    position: absolute;
+    display: inline-block;
+    font-size: small;
+    width: 681px;
+    height: 100px;
+}
+.inner-page h1{
+    font-size: 16px;
+    font-weight: normal;
+}
+.para2{
+    top: 80px;
+}
+.para3{
+    top: 140px;
+}
+.para4{
+    right: 285px;
+}
+.para5{
+    right: 285px;
+    top: 120px;
+}
+.outer-page .side-page{
+    position: relative;
+    left: 840px;
+    bottom: 40px;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(53, 5, 5);
+    color: white;
+}
+.side-page .heading1{
+    position: absolute;
+    font-weight: normal;
+    left: 30px;
+}
+.side-page .heading2{
+    top: 40px;
+    position: absolute;
+    text-decoration: none;
+}
+.heading2 .lists{
+    padding: 10px;
+}
+.outer-page .border-line{
+    position: relative
+}
+.border-line .borderline1{
+    bottom: 165px;
+    left: 150px;
+    position: absolute;
+    border-bottom: 1px solid black;
+}
+.line{
+    left: 150px;
+    width: 1000px;
+    border-bottom: 1px solid black;
+    position: absolute;
+}
+.footer{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10px;
+    padding-left: 150px;
+    font-size: 15px;
+}

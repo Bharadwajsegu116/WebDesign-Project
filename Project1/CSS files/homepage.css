@@ -1,0 +1,112 @@
+.outer-page{
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    height: auto;
+
+}
+.outer-page .navbar{
+    height: 50px;
+    background-color: #fff;
+    width: 100%;
+    
+}
+.navbar .pri-nav{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 4.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    left: 140px;
+}
+.navbar .sec-nav{
+    position: absolute;
+    height: 4.5em;
+    font-size: small;
+    padding-right: 50px;
+    right: 150px;
+
+}
+.sec-nav .nav-items{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+.nav-items a{
+    text-decoration: none;
+    color: black;
+}
+.pri-nav a{
+    text-decoration: none;
+    color: black;  
+}
+.outer-page .image-page{
+    position: relative;
+}
+.image-page .image{
+    position: absolute;
+    left: 150px;
+}
+.image-page h1, h2, h3{
+    position: absolute;
+    font-size: 23px;
+    left: 170px;
+    background-color: black;
+    color: white;
+    opacity: 0.6;    
+}
+h1{
+    top: 55px;
+}
+h2{
+    top: 90px;
+}
+h3{
+    top: 130px;
+}
+h1, h2, h3 .word3{
+    font-weight: normal;
+}
+.outer-page .inner-page{
+    display: flex;
+    position: relative;
+    top: 200px;
+    gap: 100px;
+    align-items: baseline;
+    width: 1000px;
+    height: 340px;
+    left: 150px;
+    border-bottom: 1px solid black;
+
+}
+h4, h5, h6{
+    font-weight: bold;
+    font-size: 15px;
+}
+p{
+    font-size: 15px;
+    font-weight: normal;
+}
+h4 .underline{
+	border-bottom: 1px double black;
+}
+h5 .underline1{
+    border-bottom: 1px double black;
+}
+h6{
+    font-style: italic;
+}
+.outer-page .footer{
+    position: relative;
+    top: 210px;
+    padding-left: 150px;
+    font-size: 15px;
+}
+.button1{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+}

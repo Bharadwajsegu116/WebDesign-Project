@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Roboto Slab Regular' ;
+    src: url(../../Project1/Fonts/RobotoSlab-VariableFont_wght.ttf)
+    }
+.outer-page{
+    border: 0;
+    width: auto;
+    height: auto;
+}
+.outer-page .navbar{
+    height: 50px;
+    background-color: #fff;
+    width: 100%;
+}
+.navbar .pri-nav{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 4.5em;
+    font-size: 30px;
+    left: 140px;
+}
+.navbar .sec-nav{
+    position: absolute;
+    height: 4.5em;
+    font-size: small;
+    padding-right: 50px;
+    right: 150px;
+
+}
+.sec-nav .nav-items{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+.nav-items a{
+    text-decoration: none;
+    color: black;
+}
+.pri-nav a{
+    text-decoration: none;
+    color: black;  
+}
+.inner-page{
+    position: relative;
+    left: 200px;   
+}
+.inner-page .table{
+    font-weight: normal;
+    padding: 10px;
+    width: 75%;
+}
+h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+h2{
+    font-weight: normal;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    height: 50px;
+    width: 400px;
+}
+.para1, .para2{
+    font-size: small;
+}
+.line{
+    left: 150px;
+    width: 1000px;
+    border-bottom: 1px solid black;
+    position: absolute;
+    }
+.footer{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10px;
+    padding-left: 150px;
+    font-size: 15px;
+    }
+body{
+    font-family: 'Roboto Slab Regular';
+    font-style: italic;
+}
